@@ -1,0 +1,229 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li .active {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.intro {
+    text-align: center;
+    padding: 50px 20px;
+    background-image: url("/images/login-background.png");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .intro h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-top: 4%;
+    margin-bottom: 2%;
+    letter-spacing: 2px;
+  }
+  
+  .intro p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Scroll down */
+  .scroll-down {
+      position: absolute;
+      bottom: 20px;
+      left: 0;
+      right: 0;
+      font-size: 1rem;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: auto;
+      cursor: pointer;
+  }
+  
+  .scroll-down p {
+      font-size: 0.8rem;
+      font-weight: 100;
+      opacity: 50%;
+  }
+  
+  .scroll-down span {
+    font-size: 3rem;
+    opacity: 50%;
+  }
+
+.contact-form {
+    margin: 20px auto;
+    padding: 3%;
+   width: 77%;
+   background-color: white; /* White background for the contact box */
+   border-radius: 8px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+    background: linear-gradient(to right, #6e8efb, #f3199c);
+    background-clip: text;
+    color: transparent;
+        font-size: 1.6rem;
+    margin-bottom: 20px;
+}
+
+.contact-form .form-group {
+    margin-bottom: 15px;
+}
+
+.contact-form .form-group label {
+    display: block;
+    color: #666;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-form .form-group input[type="text"],
+.contact-form .form-group input[type="email"],
+.contact-form .form-group textarea {
+    width:100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+.contact-form input[type="submit"] {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.contact-form input[type="submit"]:hover {
+    background: linear-gradient(135deg, #a777e3, #6e8efb);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+
+.contact-info {
+    width: 80%; /* Wider container for better readability */
+    margin: 50px auto; /* Centering the container with some spacing */
+    padding: 20px;
+    background-color: white; /* White background for the contact box */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for a modern look */
+}
+
+.contact-info-container {
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    border-spacing: 20px;
+}
+
+.contact-info-image img {
+    width: 100%;
+    height: 350px;
+    border-radius: 8px;
+}
+
+.contact-info-text {
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px; 
+    color: #333;
+}
+
+.contact-info-text h2 {
+    font-size: 22px; 
+    font-weight: 700;
+    margin-bottom: 3%;
+}
+.contact-info-text h1 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 3%;
+    background: linear-gradient(to right, #6e8efb, #f3199c);
+    background-clip: text;
+    color: transparent;
+}
+
+.contact-info-text p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.contact-info-text ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.contact-info-text li {
+    font-size: 1em;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-info-text i {
+    color: #8c8d8d; 
+
+    margin-right: 15px; /* Space between icon and text */
+    font-size: 1.5em; /* Icon size */
+}
+
+.contact-info-text a {
+    color: #a777e3;
+
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.contact-info-text a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+
+.contact-info-text li i, .contact-info-text a {
+    transition: color 0.3s ease; /* Smooth transition for color changes */
+}
+
+.contact-info-text li i:hover, .contact-info-text a:hover {
+    color: #8c8d8d; 
+}
+
+
+.space-tab {
+    width: 10%; 
+    height: 1px; 
+    border: none; 
+    background-color: transparent; 
+}

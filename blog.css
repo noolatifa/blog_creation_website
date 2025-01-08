@@ -1,0 +1,164 @@
+/* blog.css */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li .active {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+/* blog intro*/
+.blog-intro {
+  text-align: center;
+  padding: 50px 20px;
+  background-image: url("/images/login-background.png");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.blog-intro h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  letter-spacing: 2px;
+}
+
+.blog-intro p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Scroll down */
+.scroll-down {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    font-size: 1rem;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    cursor: pointer;
+}
+
+.scroll-down p {
+    font-size: 0.8rem;
+    font-weight: 100;
+    opacity: 50%;
+}
+
+.scroll-down span {
+  font-size: 3rem;
+  opacity: 50%;
+}
+
+
+
+.posts {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 900px;
+}
+
+.post {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.post h2 {
+  color: #444;
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+}
+
+.post p {
+  color: #666;
+  margin-top: 0;
+  font-size: 1rem;
+}
+
+.post a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #6e8efb;
+  text-decoration: none;
+  font-weight: bold;
+  border: 1px solid #6e8efb;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+.post a:hover {
+  background: #6e8efb;
+  color: #fff;
+  text-decoration: none;
+}
+
+section.newsletter {
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 20px 0;
+}
+
+section.newsletter h2 {
+  font-size: 1.5rem;
+  color: #444;
+}
+
+section.newsletter p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+section.newsletter form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section.newsletter input[type="email"] {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px 0 0 5px;
+  font-size: 1rem;
+}
+
+section.newsletter button {
+  padding: 10px 15px;
+  border: none;
+  background: #6e8efb;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+section.newsletter button:hover {
+  background: #a777e3;
+}

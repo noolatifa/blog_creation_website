@@ -1,0 +1,467 @@
+/* home.css */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Welcome Section */
+section.welcome {
+    text-align: center;
+    padding: 50px 20px;
+  background-image: url('/images/login-background.png');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+section.welcome h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    letter-spacing: 2px;
+}
+
+section.welcome p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+
+/* Button Styles */
+.welcome-buttons {
+    margin-top: 3%;
+    display: flex;
+    gap: 20px;
+}
+
+.welcome-buttons .btn {
+    display: inline-block;
+    text-decoration: none;
+    padding: 12px 25px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.welcome-buttons .login-btn {
+    background: white;
+    color: #6e8efb;
+}
+
+.welcome-buttons .signup-btn {
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+
+
+
+section.highlights {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+section.highlights .card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+section.highlights .card h2 {
+    font-size: 1.5rem;
+    background: linear-gradient(to right, #6e8efb, #a777e3);
+    background-clip: text;
+    color: transparent;
+}
+
+section.highlights .card p {
+    margin: 15px 0;
+    color: #666;
+}
+
+section.highlights .card a {
+    text-decoration: none;
+    color: #6e8efb;
+    font-weight: bold;
+    border: 1px solid #6e8efb;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+section.highlights .card a:hover {
+    background: #6e8efb;
+    color: #fff;
+}
+
+section.newsletter {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 20px 0;
+}
+
+section.newsletter h2 {
+    font-size: 1.5rem;
+    color: #444;
+}
+
+section.newsletter p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+section.newsletter form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.newsletter input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px 0 0 5px;
+    font-size: 0.8rem;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+section.newsletter button {
+    padding: 10px 15px;
+    border: none;
+    background: #6e8efb;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: 0.3s ease;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+section.newsletter button:hover {
+    background: #a777e3;
+}
+
+/* About Me Section */
+section.about-me {
+    padding: 50px 20px;
+    background: #f4f4f9;
+}
+
+.about-container {
+    display: table;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.about-image,
+.about-text {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 15px;
+}
+
+.about-image {
+    width: 40%;
+    text-align: center;
+}
+
+.about-image img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 5px solid #6e8efb;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-text {
+    width: 60%;
+}
+
+.about-text h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.about-text p {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.read-more {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    background: #6e8efb;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+ .read-more:hover {
+    background: #a777e3;
+}
+
+.comment-section {
+    max-width: 80%;
+    margin: 20px auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+background-color: #fff;
+border-radius:10px;
+padding: 2%;
+background-image: url('/images/login-background.png');
+
+}
+
+.comment-container {
+    display: flex;
+    gap: 50px;
+    margin: 5%;
+    
+}
+
+.comment-card {
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.comment-card img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.comment-actions {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.comment-actions .like {
+    color: grey;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.comment-actions input {
+    padding: 5px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.comment-actions .like:hover {
+    color: red;
+}
+
+.post-comment {
+    background: #fff;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 5%;
+
+}
+
+.post-comment h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.post-comment p {
+    font-size: 1.1em;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.post-comment p strong {
+    font-weight: bold;
+}
+
+.post-comment input,
+.post-comment textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.post-comment button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(to right, #6e8efb, #a777e3);
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+    font-family: 'Poppins', sans-serif;
+}
+
+.post-comment button:hover {
+    background: linear-gradient(to left, #6e8efb, #a777e3);
+}
+
+h2 {
+    text-align: center;
+    font-size: 2em;
+    background: linear-gradient(to right, #6e8efb, #a777e3);
+    background-clip: text;
+    color: transparent;
+        margin-bottom: 50px;
+}
+
+.feedback-message {
+    max-width: 600px;
+    font-size: 13px;
+}
+
+/* Intro Section */
+.intro-section {
+    padding: 50px 20px;
+    background: #f4f4f9;
+    color: #333;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.intro-container {
+    display: table;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.intro-text,
+.intro-image {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 15px;
+}
+
+.intro-text {
+    width: 60%;
+}
+
+.intro-text h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #333;
+}
+
+.intro-text h1 strong {
+    color: #6e8efb;
+}
+
+.intro-text p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #666;
+    line-height: 1.6;
+}
+
+.intro-text p strong {
+    color: #6e8efb;
+    font-weight: 600;
+}
+
+.intro-image {
+    width: 40%;
+    text-align: center;
+}
+
+.intro-image img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 5px solid #6e8efb;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.name-comment{
+    background: linear-gradient(to right, #6e8efb, #f3199c);
+background-clip: text;
+color: transparent;
+}
+
+
+
+
+.file-input {
+    display: inline-block;
+    padding: 5px 8px;
+    font-size: 12px;
+    background-color: #ffffff;
+    border: 1px solid #bbb;
+    border-radius: 3px;
+    cursor: pointer;
+    width: auto;
+}
+
+.file-input::file-selector-button {
+    background-color: #6e8ffb29;
+    color: #333;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 3px;
+    font-size: 12px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.h2-comments {
+    color: #ffffff;
+font-weight: 900;
+}

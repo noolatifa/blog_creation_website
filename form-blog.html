@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Your Blog - My Blog</title>
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="form-blog.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="menucontainer">
+            <div class="logomenu">
+                <img src="/images/logoln-final.png" alt="Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="interests.html">Interests Corner</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="login.html" class="login">Login</a></li>
+                    <li><a href="signup.html" class="signup">Sign Up</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section class="intro">
+            <h1>Create Your Blog</h1>
+            <p>A real simulation!
+                This is an example to fill out the form below to create your blog. Once logged in, you will get a complete website just for you!</p>
+        </section>
+
+        <!-- Blog Information Form -->
+        <section class="contact-form">
+            <h2>Blog Information Form</h2>
+            <label for="blog-creation">
+                Here's a little example of the form to create your blog below. 
+                <br>
+                <br>
+                <strong>Step 0:</strong> Log In.
+                <br>
+                <strong>Step 1:</strong> Enter your blog title and description. 
+                <br>
+                <strong>Step 2:</strong> Customize the design and settings.
+
+                                <br>
+                <strong>Step x:</strong> Join to discover!
+                <br>
+            </label>
+            
+            <br>
+            <br>
+            
+            <form action="#" method="post" enctype="multipart/form-data">
+                
+                <!-- Personal Info Section -->
+                <div class="section-group">
+                    <div class="form-group">
+                        <label for="first-name">First Name</label>
+                        <input type="text" id="first-name" name="first-name" placeholder="Enter your first name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" id="last-name" name="last-name" placeholder="Enter your last name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="address">Address</label>
+                        <input type="text" id="address" name="address" placeholder="Enter your address" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="location">Location</label>
+                        <input type="text" id="location" name="location" placeholder="Enter your location" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="interests">Interests</label>
+                        <input type="text" id="interest-1" name="interest-1" placeholder="Interest 1" required>
+                        <input type="text" id="interest-2" name="interest-2" placeholder="Interest 2" required>
+                        <input type="text" id="interest-3" name="interest-3" placeholder="Interest 3" required>
+                        <input type="text" id="interest-4" name="interest-4" placeholder="Interest 4" required>
+                    </div>
+                </div>
+
+                <!-- Blog Details Section -->
+                <div class="section-group">
+                    <div class="form-group">
+                        <label for="blog-title">Blog Title</label>
+                        <input type="text" id="blog-title" name="blog-title" placeholder="Enter your blog title" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="blog-description">Blog Description</label>
+                        <textarea id="blog-description" name="blog-description" rows="4" placeholder="Describe your blog in a few words" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="category">Blog Category</label>
+                        <select id="category" name="category" required>
+                            <option value="">Select Category</option>
+                            <option value="Technology">Technology</option>
+                            <option value="Lifestyle">Lifestyle</option>
+                            <option value="Education">Education</option>
+                            <option value="Travel">Travel</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="blog-image">Upload Blog Image</label>
+                        <input type="file" id="blog-image" name="blog-image"class="file-input" accept="image/*">
+                    </div>
+                    <div class="form-group">
+                        <label for="header-image">Upload Header Image</label>
+                        <input type="file" id="header-image" name="header-image" class="file-input"accept="image/*">
+                    </div>
+                    <div class="form-group">
+                        <label for="profile-image">Upload Profile Picture</label>
+                        <input type="file" id="profile-image" name="profile-image" class="file-input" accept="image/*">
+                    </div>
+                    <div class="form-group">
+                        <label for="social-links">Social Media Links (Optional)</label>
+                        <input type="text" id="social-links" name="social-links" placeholder="Instagram, LinkedIn, etc.">
+                    </div>
+                    <div class="form-group">
+                        <label for="blog-content">First Blog Post Content</label>
+                        <textarea id="blog-content" name="blog-content" rows="6" placeholder="Start writing your first post!" required></textarea>
+                    </div>
+                </div>
+
+                <!-- Personal Sections -->
+                <div class="section-group">
+                    <div class="form-group">
+                        <label for="who-am-i">Who Am I?</label>
+                        <textarea id="who-am-i" name="who-am-i" rows="4" placeholder="Who are you?" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="my-goals">My Goals</label>
+                        <textarea id="my-goals" name="my-goals" rows="4" placeholder="What are your goals?" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="what-people-say">What People Say</label>
+                        <textarea id="what-people-say" name="what-people-say" rows="4" placeholder="What do people say about you?" required></textarea>
+                    </div>
+                    <label for="what-people-say">
+                        And there's much more! To get started, log in or create your account. This form with more details will be accessible to manage everything, and you'll have more options. 😉 What are you waiting for? Join us now!
+                    </label>
+                                        <br>
+                    <br>
+
+                </div>
+
+                <a href="signup.html">
+                    <input type="button" class="go-to-login" value="Create your account first!">
+                </a>
+                
+                            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footercontainer">
+            <div class="logofooter">
+                <img src="/images/logoln-white.png" alt="Logo">
+            </div>
+            <p>&copy; 2025 My Blog. All Rights Reserved.</p>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="interests.html">Interests Corner</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
